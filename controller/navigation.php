@@ -22,3 +22,6 @@ function lost()
 {
     require "view/lost.php";
 }
+
+
+
