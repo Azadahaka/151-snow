@@ -13,6 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="20zYLDldhMcafJMDKl8Y5NkJkqM" />
   <component name="ProjectViewState">
@@ -41,6 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637048827285</updated>
       <workItem from="1637048829386" duration="121000" />
+      <workItem from="1637049030736" duration="426000" />
     </task>
     <servers />
   </component>
