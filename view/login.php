@@ -12,14 +12,13 @@ $title = "SnowPoint . Login";
 ?>
 
 
-<
-!--formulaire-- >
+
 	<section class="bgwhite p-t-66 p-b-60" >
 		<div class="container" >
 			<div class="row" >
 
 				<div class="col-md-12 p-b-30" >
-					<form class="leave-comment" >
+					<form class="leave-comment" action="index.php?action=login" method="post">
 						<h4 class="m-text26 p-b-36 p-t-15" >
                             Connectez - vous
 						</h4 >
