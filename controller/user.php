@@ -17,7 +17,7 @@ function login($data) : void
     //check email is set, when coming from login page.
     if (isset($data))
     {
-        if(/*checkLogin($data)*/ checkLoginDB($data))
+        if(checkLoginDB($data))
         {
             $_SESSION["email"] = $data["email"];
             require "view/home.php";
@@ -28,7 +28,6 @@ function login($data) : void
             require "view/login.php";
         }
 
-        //require checkLogin() ? "view/home.php" : "view/login.php";
     }
     else
     {

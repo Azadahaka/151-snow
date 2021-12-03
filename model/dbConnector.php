@@ -55,13 +55,13 @@ function executeQuerySelect($query, $params)
     if ($dbConnexion != null)
     {
         //preparation query
-        $statement = $dbConnexion->prepare($query); //fixe la requête en readonly (sauf params qui peuvent être injecté)
+        $statement = $dbConnexion->prepare($query);
         //we execute the request with the parameters used on the query
         $statement->execute($params);
         //we prepare the results for the navigator
         $queryResult = $statement->fetchAll();
     }
-    $dbConnexion = null; // Fermeture de ma connection à la BD
+    $dbConnexion = null; // Fermeture de la connection à la BD
     return $queryResult;
 }
 
@@ -87,7 +87,7 @@ function executeQueryInsert($query) : void
         $pwd = password_hash($query['userPswd'], PASSWORD_DEFAULT);
         $statement->execute();
     }
-    $dbConnexion = null; // Fermeture de ma connection à la BD
+    $dbConnexion = null; // Fermeture de la connection à la BD
 
 
 }
