@@ -22,7 +22,7 @@ function openDBConnexion()
     $port = 3306;
     $charset = 'utf8';
     $dbName = 'snows';
-    $userName = 'Florian'; //to change
+    $userName = 'root'; //to change
     $userPwd = 'Pa$$w0rd';
     $dsn = $sqlDriver . ':host=' . $hostname . ';dbname=' . $dbName . ';port=' . $port . ';charset=' . $charset;
 
