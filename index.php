@@ -7,17 +7,26 @@
  * @version   26-MAR-2021
  */
 
-require "controller/navigation.php";
-require "controller/users.php";
+session_start();
 
-if (isset($_GET['action'])) {
+require "controller/navigation.php";
+require "controller/user.php";
+require "controller/articles.php";
+require "model/dbConnector.php";
+
+if (isset($_GET['action']))
+{
     $action = $_GET['action'];
-    switch ($action) {
+    switch ($action)
+    {
         case 'home' :
             home();
             break;
+        case 'articles' :
+            displayArticles();
+            break;
         case 'login' :
-            login();
+            login($_POST);
             break;
         case 'logout' :
             logout();
@@ -25,6 +34,8 @@ if (isset($_GET['action'])) {
         default :
             lost();
     }
-} else {
+}
+else
+{
     home();
 }

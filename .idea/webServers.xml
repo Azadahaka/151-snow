@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="b0bc8919-deb5-46cd-a3f6-64cebb10ee33" name="ASN_server" url="http://localhost:1805">
+      <webServer id="9b15ed91-74db-4f6a-9bd7-59ae94c6358f" name="LocalHost" url="http://localhost:8001">
         <fileTransfer accessType="LOCAL" port="0" />
       </webServer>
     </option>
