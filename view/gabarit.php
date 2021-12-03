@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title><?=$title; ?></title>
+    <title><?= $title; ?></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -44,7 +44,8 @@
     <link rel="stylesheet" type="text/css" href="view/content/css/util.css">
     <link rel="stylesheet" type="text/css" href="view/content/css/main.css">
     <!--===============================================================================================-->
-    <link rel="script" type"tex
+    <link rel="script" type
+    "tex
 </head>
 <body class="animsition">
 <!-- Header -->
@@ -63,34 +64,48 @@
             <span class="topbar-child1">
 					Livraison gratuite dès 200.-
 				</span>
+            <div class="topbar-child2"
+            <span class="topbar-email">
+                     <?php
+                     if (isset($_SESSION['email'])) {
+                         echo $_SESSION['email'];
+                     }
+                     ?>
+                 </span>
+        </div>
+    </div>
 
 
+    </div>
+
+    <div class="wrap_header">
+        <!-- Logo -->
+        <a href="index.php" class="logo">
+            <img src="view/content/images/icons/logo.png" alt="IMG-LOGO">
+        </a>
+
+        <!-- Menu -->
+        <div class="wrap_menu">
+            <nav class="menu">
+                <ul class="main_menu">
+                    <li>
+                        <a href="index.php">Accueil</a>
+                    </li>
+
+                    <li>
+                        <?php if(isset($_SESSION['email'])){ ?>
+                        <a href="index.php?action=login">Login</a>
+                        <?php } else { ?>
+                        <a href="index.php?action=logout">Logout</a>
+                        <?php }?>
+                    </li>
+
+                </ul>
+            </nav>
         </div>
 
-        <div class="wrap_header">
-            <!-- Logo -->
-            <a href="index.php" class="logo">
-                <img src="view/content/images/icons/logo.png" alt="IMG-LOGO">
-            </a>
 
-            <!-- Menu -->
-            <div class="wrap_menu">
-                <nav class="menu">
-                    <ul class="main_menu">
-                        <li>
-                            <a href="index.php">Accueil</a>
-                        </li>
-
-                        <li>
-                            <a href="index.php?action=login">Login</a>
-                        </li>
-
-                    </ul>
-                </nav>
-            </div>
-
-
-        </div>
+    </div>
     </div>
 
     <!-- Header Mobile -->
@@ -112,13 +127,25 @@
     </div>
 
     <!-- Menu Mobile -->
-    <div class="wrap-side-menu" >
+    <div class="wrap-side-menu">
         <nav class="side-menu">
             <ul class="main-menu">
                 <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
 						<span class="topbar-child1">
 							Livraison gratuite dès 200.-
 						</span>
+
+                </li>
+                <li class="item-topbar-mobile p-l-20 p-t-8 p-b-8">
+
+					<span class="topbar-email">
+                        <?php
+                        if (isset($_SESSION['email'])) {
+                            echo $_SESSION['email'];
+                        }
+                        ?>
+                    </span>
+
                 </li>
 
 
@@ -145,7 +172,7 @@
     </div>
 </header>
 
-<?=$content; ?>
+<?= $content; ?>
 
 <!-- Shipping -->
 <section class="shipping bgwhite p-t-62 p-b-46">
@@ -347,11 +374,12 @@
         </a>
 
         <div class="t-center s-text8 p-t-20">
-            Copyright © SnowPoint 2020 All rights reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            Copyright © SnowPoint 2020 All rights reserved. | This template is made with <i class="fa fa-heart-o"
+                                                                                            aria-hidden="true"></i> by
+            <a href="https://colorlib.com" target="_blank">Colorlib</a>
         </div>
     </div>
 </footer>
-
 
 
 <!-- Back to top -->
@@ -363,7 +391,6 @@
 
 <!-- Container Selection1 -->
 <div id="dropDownSelect1"></div>
-
 
 
 <!--===============================================================================================-->

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f0bc3a7f-bff4-4f22-822a-478befa1dd75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/gabarit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,12 @@
       <workItem from="1637049030736" duration="4953000" />
       <workItem from="1637075030730" duration="2564000" />
       <workItem from="1637305222743" duration="5760000" />
+      <workItem from="1637651000530" duration="4895000" />
+      <workItem from="1637912362509" duration="1964000" />
+      <workItem from="1637914443916" duration="20000" />
+      <workItem from="1637914472596" duration="1248000" />
+      <workItem from="1638255541554" duration="3576000" />
+      <workItem from="1638516611067" duration="532000" />
     </task>
     <servers />
   </component>
