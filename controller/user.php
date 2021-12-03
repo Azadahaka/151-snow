@@ -3,7 +3,7 @@
 /**
  * @file      user.php
  * @brief     File description
- * @author    Created by Florian.DURUZ
+ * @author     Created by azad.safai-naeeni
  * @version   16.11.2021
  */
 
