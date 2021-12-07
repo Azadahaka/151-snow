@@ -100,6 +100,13 @@
                                 echo '<a href="index.php?action=login">Login</a>';
                             ?>
                         </li>
+                        <li>
+                            <?php if(isset($_SESSION['email']))
+                                echo '<a href="index.php?action=logout">Logout</a>';
+                            else
+                                echo '<a href="index.php?action=login">Senregistrer</a>';
+                            ?>
+                        </li>
 
                     </ul>
                 </nav>

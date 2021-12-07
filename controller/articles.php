@@ -9,6 +9,8 @@
 
 function displayArticles()
 {
-    $query = "SELECT * FROM snows";
+    $query = "SELECT code, brand, model, qtyAvailable, price, photo FROM snows";
+    $queryResult = executeQuerySelect($query);
+    return $queryResult;
 }
 ?>
