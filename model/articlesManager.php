@@ -8,7 +8,10 @@
  */
 
 function getArticle(){
-
+    $query = "SELECT code, brand, model, qtyAvailable, price, photo FROM snows";
+    $params = array();
+    $queryResult = executeQuerySelect($query, $params);
+    return $queryResult;
 }
 
 ?>

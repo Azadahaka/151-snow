@@ -90,7 +90,7 @@
                         </li>
 
                         <li>
-                            <a href="index.php">Articles</a>
+                            <a href="index.php?action=articles">Articles</a>
                         </li>
 
                         <li>

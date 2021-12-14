@@ -6,11 +6,11 @@
  * @author    Created by azad.safai-naeeni
  * @version   03.12.2021
  */
+require "model\articlesManager.php";
 
 function displayArticles()
 {
-    $query = "SELECT code, brand, model, qtyAvailable, price, photo FROM snows";
-    $queryResult = executeQuerySelect($query);
-    return $queryResult;
+    $articles= getArticle();
+    require "view/articles.php";
 }
 ?>
