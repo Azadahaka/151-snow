@@ -41,3 +41,23 @@ function logout() : void
     $_SESSION = array();
     require "view/home.php";
 }
+
+function register($loginRequest) {
+
+    if (isset($loginRequest['userPswd']) && isset($loginRequest['email']) && isset($loginRequest['userPswd2'])) {
+        if ($loginRequest['userPswd'] != $loginRequest['userPswd2']) {
+            $errorMsgRegister = "Pwd différents";
+            require "view/register.php";
+        } else {
+            if (registerLogin($loginRequest["email"], $loginRequest["userPswd"])) {
+                createSession($loginRequest["email"]);
+                require "view/home.php";
+            } else {
+                $errorMsgRegister = "Erreur insertion user";
+                require "view/register.php";
+            }
+        }
+    } else {
+        require "view/register.php";
+    }
+}

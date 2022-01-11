@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae948cff-d7f6-40a4-9409-77b3c0588f2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/view/articles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view/register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/articlesManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/articlesManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/userManagement.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/userManagement.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/gabarit.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/gabarit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -57,7 +59,7 @@
     </key>
   </component>
   <component name="RunManager" selected="PHP Built-in Web Server.LocalHost">
-    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/151-snow/index.php" useBuiltInWebServerPort="true">
+    <configuration name="index.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/151-snow/index.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="LocalHost" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8001">
@@ -67,11 +69,6 @@
       <item itemvalue="JavaScript Debug.index.php" />
       <item itemvalue="PHP Built-in Web Server.LocalHost" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.php" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +94,12 @@
       <workItem from="1639119947748" duration="1882000" />
       <workItem from="1639465399719" duration="559000" />
       <workItem from="1639465987823" duration="3000" />
-      <workItem from="1639466025089" duration="6391000" />
+      <workItem from="1639466025089" duration="7788000" />
+      <workItem from="1640070150939" duration="607000" />
+      <workItem from="1640070849335" duration="22000" />
+      <workItem from="1640077976415" duration="725000" />
+      <workItem from="1641886322264" duration="104000" />
+      <workItem from="1641886434503" duration="2365000" />
     </task>
     <servers />
   </component>

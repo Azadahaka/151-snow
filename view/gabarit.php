@@ -104,8 +104,12 @@
                             <?php if(isset($_SESSION['email']))
                                 echo '<a href="index.php?action=logout">Logout</a>';
                             else
-                                echo '<a href="index.php?action=login">Senregistrer</a>';
+                                echo '<a href="index.php?action=login">Login</a>';
                             ?>
+                        </li>
+
+                        <li>
+                            <a href="index.php?action=register">Enregistrer</a>
                         </li>
 
                     </ul>
